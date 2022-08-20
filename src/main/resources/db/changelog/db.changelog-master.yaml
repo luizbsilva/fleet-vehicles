@@ -1,0 +1,10 @@
+databaseChangeLog:
+
+  - changeSet:
+      id: 20211104-creating-tables-user
+      author: jose.luiz
+      changes:
+      - sqlFile:
+          encoding: utf8
+          path: sqls/20211104-creating-tables-user.sql
+          relativeToChangelogFile: true
