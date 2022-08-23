@@ -1,10 +1,19 @@
 databaseChangeLog:
 
   - changeSet:
-      id: 20211104-creating-tables-user
+      id: 20220822-creating-tables-user
       author: jose.luiz
       changes:
       - sqlFile:
           encoding: utf8
-          path: sqls/20211104-creating-tables-user.sql
+          path: sqls/20220822-creating-tables-user.sql
+          relativeToChangelogFile: true
+
+  - changeSet:
+      id: 20220822-creating-tables-employee
+      author: jose.luiz
+      changes:
+      - sqlFile:
+          encoding: utf8
+          path: sqls/20220822-creating-tables-employee.sql
           relativeToChangelogFile: true

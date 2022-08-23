@@ -2,7 +2,8 @@ package br.com.agence.fleet.vehicles.infra.adapter.enums;
 
 public enum ProfileEnum {
     ROLE_NULL(0),
-    ROLE_ADM(1);
+    ROLE_ADM(1),
+    ROLE_USER(1);
 
 
     ProfileEnum(int codeRole) {

@@ -5,5 +5,5 @@ import java.util.Optional;
 
 public interface UserServicePort {
 
-    Optional<UserDataDTO> findByEmail(String email);
+    Optional<UserDataDTO> findByLogin(String login);
 }

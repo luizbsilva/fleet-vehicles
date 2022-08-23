@@ -14,3 +14,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Creating the project structure.
 - Add config Swagger
 - Add CHANGELOG.md.
+
+## [0.0.1\2] - 2022-08-22
+
+### Added
+
+- End-Points and Business Rules

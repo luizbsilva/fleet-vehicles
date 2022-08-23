@@ -34,7 +34,7 @@ Usuário BD: agence
 Senha: agence
 Ao executar o comando do docker compose ja sera criado um usuario admim para gerar o token da aplicação
 Ao executar o projeto e acesso-lo via url o primeiro passo e autenticar via usuario e senha no end-point authentication-controller no Post /auth
-utilizando  e-mail: desafio@email, senha: desafio adicionar o token  no Autorize botão clicavel no top da pagina.
+utilizando  login: admin, senha: fleetmg@! adicionar o token  no Autorize botão clicavel no top da pagina.
 Apos isso poderar usar todos os end-points sem necessitar de passar to token todas as vezes
 
 URLS:
@@ -45,5 +45,5 @@ URLS:
 |DOC|http://localhost:8080/|http://localhost:8080/v2/api-docs|
 
 
-[java-image]: https://img.shields.io/badge/Java-8-blue?style=flat-square
+[java-image]: https://img.shields.io/badge/Java-11-blue?style=flat-square
 [java-url]: https://openjdk.java.net/

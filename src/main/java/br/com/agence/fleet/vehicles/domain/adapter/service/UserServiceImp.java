@@ -14,8 +14,8 @@ public class UserServiceImp implements UserServicePort {
     }
 
     @Override
-    public Optional<UserDataDTO> findByEmail(String email) {
-        UserPort user = repository.findByEmail(email);
+    public Optional<UserDataDTO> findByLogin(String login) {
+        UserPort user = repository.findByLogin(login);
         return Optional.ofNullable(user.toUser());
     }
 }

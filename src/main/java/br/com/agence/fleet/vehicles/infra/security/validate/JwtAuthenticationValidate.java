@@ -5,22 +5,21 @@ import javax.validation.constraints.NotEmpty;
 
 public class JwtAuthenticationValidate {
 
-    private String email;
+    private String login;
     private String senha;
 
     public JwtAuthenticationValidate() {
     }
 
-    @NotEmpty(message = "Email não pode ser vazio.")
-    @Email(message = "Email inválido.")
-    public String getEmail() {
-        return email;
+    @NotEmpty(message = "Login não pode ser vazio.")
+    public String getLogin() {
+        return login;
     }
-
-    public void setEmail(String email) {
-        this.email = email;
+    
+    public void setLogin(String login) {
+        this.login = login;
     }
-
+    
     @NotEmpty(message = "Senha não pode ser vazia.")
     public String getSenha() {
         return senha;
@@ -32,7 +31,7 @@ public class JwtAuthenticationValidate {
 
     @Override
     public String toString() {
-        return "JwtAuthenticationRequestDto [email=" + email + ", senha=" + senha + "]";
+        return "JwtAuthenticationRequestDto [email=" + this.login + ", senha=" + senha + "]";
     }
 
 }

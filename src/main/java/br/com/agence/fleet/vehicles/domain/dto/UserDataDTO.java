@@ -13,7 +13,7 @@ import lombok.Setter;
 public class UserDataDTO {
 	
 	private Long code;
-	private String email;
+	private String login;
 	private String password;
 	private ProfileEnum profile;
 	

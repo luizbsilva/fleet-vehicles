@@ -13,7 +13,7 @@ public class JwtUserFactory {
     }
 
     public static JwtUser create(UserDataDTO userDataDTO) {
-        return new JwtUser(userDataDTO.getCode(), userDataDTO.getEmail(), userDataDTO.getPassword(),
+        return new JwtUser(userDataDTO.getCode(), userDataDTO.getLogin(), userDataDTO.getPassword(),
                 mapToGrantedAuthorities(userDataDTO.getProfile()));
     }
 
